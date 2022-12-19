@@ -1,9 +1,22 @@
-import ctypes
-import subprocess, colorama, requests, base64, os, socket
-import sys
-from colorama import Fore, Style
-from pystyle import Center, Colors, Colorate, System, Anime
-import time
+try:
+    import ctypes
+    import subprocess, colorama, requests, base64, os, socket
+    import sys
+    from colorama import Fore, Style
+    from pystyle import Center, Colors, Colorate, System, Anime
+    import time
+except ModuleNotFoundError:
+    print("Exception when importing modules")
+    print("Installing necessary modules....")
+    if os.path.isfile("requirements.txt"):
+        os.system("pip install -r requirements.txt")
+    else:
+        os.system("pip install pystyle")
+        os.system("pip install colorama")
+        os.system("pip install requests")
+    print("Modules installed!")
+    time.sleep(1.5)
+    os._exit(1
 
 """
         color
