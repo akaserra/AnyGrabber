@@ -11,9 +11,9 @@ By using AnyGrabber, you agree that you hold responsibility and accountability o
 ## SETUP
 
 ```
-git clone https://github.com/akaserra/passwordgen_python.git
-cd passwordgen_python
-py pwgenerator.py
+git clone https://github.com/akaserra/AnyGrabber.git
+cd AnyGrabber
+python anygrabber.py
 ```
 
 In case you find this ip, it means that the screensharer is using a default proxy of anydesk
